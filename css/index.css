@@ -1,0 +1,57 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color : #000;
+    position: relative;
+    margin: 0 2px;
+}
+
+.nav-link:hover, .actives{
+    color : #8c52ff;
+    position: relative;
+    margin: 0 2px;
+    border-bottom: 2px solid #000;
+}
+
+
+
+.xxl-conteneur{
+    background-image: url('../image/Hero BG.png');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.yyl-conteneur{
+    background-image: url('../image/Home Cover.jpg');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+h2{
+    font-size: 70px;
+    text-align: center;
+}
+
+.text-baniere p{
+    text-align: center;
+}
+
+.grow-icon .grow-arrow{
+    transition: scale 0.5s;
+}
+
+.grow-icon:hover .grow-arrow{
+    color: #000;
+    transform: scaleX(1.5);
+}
