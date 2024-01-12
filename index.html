@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+    <!--debut: navBar-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo" style="width: 50px; height: 75px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon border border-0" style="border: 0; outline: none;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="d-flex me-auto position-relative" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Nom du Cours..." aria-label="Search" style="padding-left: 35px;">
+                    <i class="fa-solid fa-magnifying-glass" style="position: absolute; top: 50%; left: 20px; transform: translate(-50%, -50%)"></i>
+                </form>
+
+                <ul class="navbar-nav mb-2 mb-lg-0  d-lg-flex align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link actives" aria-current="page" href="#">Boutique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">liste Cours</a>
+                    </li>
+                    <li class="nav-item dropdown me-5">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Formateurs</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-3">
+                        <i class="fa-solid fa-cart-shopping" style="color: #005eff;"></i> <span class="addToCart" style="color: #ccc">(0)</span>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <img src="image/testimonial-1.png" alt="profil">
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--fin: navBar-->
+
+    <!--debut: contenu-->
+    <div class="container-fluid p-0" style="width: 100%;">
+        <div class="container-xxl xxl-conteneur" style="width: 100%;">
+            <div class="row h-100" style="width: 100%;">
+                <div class="col w-50 text-baniere d-flex justify-content-center align-items-center flex-column">
+                    <h2>Un large choix <br> de cours</h2>
+                    <p>Choisir 213000 videos de cours en ligne avec <br> les mises à jours nouveautés chaque mois</p>
+                    <div class="row w-100">
+                        <div class="col d-flex justify-content-end align-items-center p-1">
+                            <button type="button" class="btn btn-primary rounded-pill py-3">Explorez vos cours</button>
+                        </div>
+                        <div class="col d-flex justify-content-start align-items-center p-0">
+                            <button type="button" class="btn btn-outline-warning rounded-pill grow-icon py-3">Commencer le cours <i class="fa-solid fa-arrow-right grow-arrow"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col w-50 d-lg-flex d-none justify-content-lg-center align-items-lg-end ">
+                    <img src="image/baniere.png" alt="baniere" style="width: 600px; height: 450px;">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h2 style="font-size: 45px;">Featured Courses</h2>
+                <p style="text-align: center;">text1 text1 text1 text1 text1 text1 text1 text1 text1 text1 text1 text1 <br> text1 text1 text1 text1 text1 text1 text1 text1</p>
+            </div>
+        </div>
+        <div class="container d-flex gap-2">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/js.png" class="card-img-top" alt="javascript" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half"></i></span>
+                                <span style="font-weight: bold">4.20</span> <span class="addToCart" style="color: #ccc">(2)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours complet sur Javascript</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">Leon Dilan Wabo</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/PHP.webp" class="card-img-top" alt="php" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours complet sur PHP</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil">Par<span class="fst-italic"> Gustave Gautier</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/adobePre.webp" class="card-img-top" alt="adobepre" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours complet sur Adobe Pre</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">John Doe</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/adobe-after-effects.jpg" class="card-img-top" alt="aftereffect" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours complet sur After Effect</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">Igor Kollo</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container d-flex gap-2">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/canva.webp" class="card-img-top" alt="canvas" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours sur Canvas</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">Borel David</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/flutter.png" class="card-img-top" alt="flutter" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours complet sur Flutter</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">Loic Pierre</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/compta1.jpg" class="card-img-top" alt="compta1" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours sur la comptabilité</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">Rudy Nathan</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border border-0">
+                        <img src="image/reseau1.jpg" class="card-img-top" alt="aftereffect" style="width: 100%; height: 100%">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <span style="color: gold;"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></span>
+                                <span style="font-weight: bold">5</span> <span class="addToCart" style="color: #ccc">(1)</span>
+                            </div>
+                            <h5 class="card-title mb-3" style="font-size: 15px;">Cours sur Reseau info</h5>
+                            <span class="mb-3 fw-light"><img src="image/testimonial-1.png" alt="profil"> Par <span class="fst-italic">Justin Angu</span></span>
+                            <hr class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span style="font-weight: bold">$250</span>
+                                <button type="button" class="btn btn-outline-primary">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <div class="col d-flex justify-content-center align-items-center p-1">
+                <a href="#" type="button" class="btn btn-primary rounded-pill py-3">Parcourir tous les cours</a>
+            </div>
+        </div>
+
+        <div class="container-xxl my-5">
+            <div class="row bg-body-secondary">
+                <div class="col-6 col-lg-3 my-3 d-flex flex-column justify-content-center align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-user-graduate" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <span style="font-weight: bold">0</span>
+                    <span class="fw-light">Apprenants</span>
+                </div>
+                <div class="col-6 col-lg-3 my-3 d-flex flex-column justify-content-center align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-certificate" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <span style="font-weight: bold">0</span>
+                    <span class="fw-light">Certifications</span>
+                </div>
+                <div class="col-6 col-lg-3 my-3 d-flex flex-column justify-content-center align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-user" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <span style="font-weight: bold">0</span>
+                    <span class="fw-light">Formateurs</span>
+                </div>
+                <div class="col-6 col-lg-3 my-3 d-flex flex-column justify-content-center align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-book" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <span style="font-weight: bold">0</span>
+                    <span class="fw-light">Cours publiés</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-xxl my-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-brands fa-artstation" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Art & Design</span>
+                        <p class="fw-light">25 cours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-sack-dollar" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Finances</span>
+                        <p class="fw-light">17 cours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-language" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Langues</span>
+                        <p class="fw-light">83 cours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-chart-line" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Developpement</span>
+                        <p class="fw-light">112 cours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xxl my-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-image" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Photographies</span>
+                        <p class="fw-light">25 cours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-microphone" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Audio Visuel</span>
+                        <p class="fw-light">25 cours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center column-gap-1 align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-book" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Philosophie</span>
+                        <p class="fw-light">7 cours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 my-3 d-flex justify-content-center align-items-center" style="text-align: center">
+                    <i class="fa-solid fa-chalkboard-user" style="color: #005eff; width: 90px; height: 90px;"></i>
+                    <div>
+                        <span style="font-weight: bold">Art oratoire</span>
+                        <p class="fw-light">54 cours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl yyl-conteneur position-relative p-0" style="z-index: 1; min-height: auto; width: 100%;">
+            <div style="position: absolute; opacity: 0.6; background-color:#000; width: 100%; height: 100%; z-index: 2;"></div>
+            <div class="row h-100" style="width: 100%;">
+                <div style="z-index: 3; color: #fff; height: auto;" class="col w-50 text-baniere d-flex justify-content-center align-items-center flex-column">
+                    <h2 style="color: #fff; font-size: 45px;">Pour avoir les offres spéciales <br> et cours actualisés</h2>
+                    <div style="min-width: 300px; width: 60%; position: relative; z-index: 4; margin: 30px;">
+                        <input class="form-control" type="email" placeholder="Adresse email" aria-label="email" style="border-bottom-right-radius: 50px; border-top-right-radius: 50px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+                        <button style="position: absolute; right: 0; top: 0;" type="submit" class="btn btn-primary rounded-pill ">Enregistrer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fin: contenu-->
+
+    <!--debut: footer-->
+    <div class="container my-5">
+        <hr class="mt-5">
+        <div class="d-flex justify-content-between align-items-center p-1">
+            <div>© 2023 HTTC, Inc</div>
+            <div>
+                <i style="font-size: 50px;" class="fa-brands fa-facebook"></i>
+                <i style="font-size: 50px;" class="fa-brands fa-twitter"></i>
+                <i style="font-size: 50px;" class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <!--fin: footer-->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
