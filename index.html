@@ -11,16 +11,16 @@
 
     <!--debut: navBar-->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="image/logo.png" alt="logo" style="width: 50px; height: 75px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon border border-0" style="border: 0; outline: none;"></span>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon border border-0" style="border: 0; outline: none; "></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                 <form class="d-flex me-auto position-relative" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Nom du Cours..." aria-label="Search" style="padding-left: 35px;">
+                    <input class="form-control me-2 shadow-none" type="search" placeholder="Nom du Cours..." aria-label="Search" style="padding-left: 35px;">
                     <i class="fa-solid fa-magnifying-glass" style="position: absolute; top: 50%; left: 20px; transform: translate(-50%, -50%)"></i>
                 </form>
 
@@ -31,11 +31,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">liste Cours</a>
                     </li>
-                    <li class="nav-item dropdown me-5">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu w-100">
                             <li><a class="dropdown-item" href="#">Formateurs</a></li>
                             <li><a class="dropdown-item" href="#">Blog</a></li>
                         </ul>
@@ -340,7 +340,7 @@
                 <div style="z-index: 3; color: #fff; height: auto;" class="col w-50 text-baniere d-flex justify-content-center align-items-center flex-column">
                     <h2 style="color: #fff; font-size: 45px;">Pour avoir les offres spéciales <br> et cours actualisés</h2>
                     <div style="min-width: 300px; width: 60%; position: relative; z-index: 4; margin: 30px;">
-                        <input class="form-control" type="email" placeholder="Adresse email" aria-label="email" style="border-bottom-right-radius: 50px; border-top-right-radius: 50px; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+                        <input class="form-control" type="email" placeholder="Adresse email" aria-label="email" style="border-radius: 20px 50px 50px 20px;">
                         <button style="position: absolute; right: 0; top: 0;" type="submit" class="btn btn-primary rounded-pill ">Enregistrer</button>
                     </div>
                 </div>
