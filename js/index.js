@@ -9,7 +9,7 @@ counts.forEach((counter) => {
 
         if(count < target){
             counter.innerHTML = Math.floor(inc + count);
-            setTimeout(upData, 1);
+            setTimeout(upData, 100);
         }
         else{
             counter.innerHTML = target;
